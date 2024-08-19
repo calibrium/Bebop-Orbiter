@@ -1,0 +1,88 @@
+{
+  "domain": {
+    "name": "BebopSettlement",
+    "version": "2",
+    "chainId": "",
+    "verifyingContract": ""
+  },
+  "types": {
+      "MultiOrder": [
+        {
+          "name": "partner_id",
+          "type": "uint64"
+        },
+        {
+          "name": "expiry",
+          "type": "uint256"
+        },
+        {
+          "name": "taker_address",
+          "type": "address"
+        },
+        {
+          "name": "maker_address",
+          "type": "address"
+        },
+        {
+          "name": "maker_nonce",
+          "type": "uint256"
+        },
+        {
+          "name": "taker_tokens",
+          "type": "address[]"
+        },
+        {
+          "name": "maker_tokens",
+          "type": "address[]"
+        },
+        {
+          "name": "taker_amounts",
+          "type": "uint256[]"
+        },
+        {
+          "name": "maker_amounts",
+          "type": "uint256[]"
+        },
+        {
+          "name": "receiver",
+          "type": "address"
+        },
+        {
+          "name": "commands",
+          "type": "bytes"
+        }
+      ],
+      "EIP712Domain": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "version",
+          "type": "string"
+        },
+        {
+          "name": "chainId",
+          "type": "uint256"
+        },
+        {
+          "name": "verifyingContract",
+          "type": "address"
+        }
+      ]
+    },
+    "primaryType": "MultiOrder",
+    "message": {
+      "expiry": "",
+      "taker_address": "",
+      "maker_address": "",
+      "maker_nonce": "",
+      "taker_tokens": "",
+      "maker_tokens": "",
+      "taker_amounts": "",
+      "maker_amounts": "",
+      "receiver": "",
+      "commands": ""
+    }
+  
+}
